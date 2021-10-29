@@ -1,0 +1,71 @@
+body {
+	background-image: url(images/pixelspace.png);
+	background-color: #000000;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+a {
+	text-decoration:none;
+	color:#dce2e5;
+}
+
+img {
+  width: 80%;
+  
+}
+
+#container {
+	background-color: white;
+	color: GhostWhite;
+	width: auto;
+	margin-left: 50px;
+	margin-right: 50px;
+	 
+}
+
+#h1, h2, h3{
+	margin:0;
+}
+#header {
+	height: 80px;
+    background-color: #AA0E37;
+    color: GhostWhite;
+    text-align: center;
+    margin: auto;
+    padding: 1;
+}
+#content {
+	
+}
+#nav {
+	width:190px;
+	float: left;
+	background-color: #be234f;
+	color: #d0d5dc;
+	margin: 0 0 10 0px;
+}
+#nav ul{
+	list-style-type: none;
+	padding:0;
+
+}
+#nav .selected {
+	font-weight:bold;
+	color:#f3f5f6;
+}
+#main{
+	width:900px;
+	float: left;
+	margin-left:5px;
+}
+#footer{
+	position: fixed;
+	bottom: 0;
+	width: 93.5%;
+	height: 20px;
+    background-color: #AA0E37;
+    color: GhostWhite;
+    text-align: center;
+    margin: auto;
+    padding: 1;
+}
